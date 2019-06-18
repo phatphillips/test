@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Welcome to the State of the Environment web site</title>
+<link href="style.css" media="screen" rel="StyleSheet" type="text/css"/>
+<style type="text/css">
+
+A.soeglossarylink { text-decoration: none; color: red }
+
+</style>
+</head>
+<body bgcolor="#ffffff" onload="preloadImages()"><center>
+<script language="JavaScript">
+<!--
+
+boolPageLoaded = true;
+
+suppress = ((navigator.userAgent.indexOf ("MSIE") > (-1)) && (navigator.userAgent.indexOf ("Mac") > (-1)));
+
+
+var sHTML;
+
+function newImage("arg) {
+if (document.images) {
+rslt = new Image();
+rslt.src = arg;
+return rslt;
+}
+}
+
+function changeImages() {
+if (document.images && (preloadFlag == true)) {
+for (var i=0; i<changeImages.arguments.length; i+=2) {
+document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+}
+}
+}
+
+
+function getDesc()
+{
+if(document.getElementById)
+{
+return document.getElementById("desc");
+}
+else if (document.all)
+{
+return document.all.desc;
+}
+return null;
+}
+
+function openIt(text)
+{
+if(boolPageLoaded && !suppress)
+{
+var desc = getDesc();
+if (desc!=null)
+{
+sHTML = desc.innerHTML;
+
+
+desc.innerHTML = '<b><font face="Arial,Helvetica" size="-1" color="#006633">'+ text +'</font></b>';
+}
+}
+}
+
+
+function closeIt()
+{
+if (boolPageLoaded && !suppress)
+{
+var desc = getDesc();
+if (desc!=null) desc.innerHTML = sHTML;
+}
+}
+
+
+var preloadFlag = false;
+function preloadImages() {
+if (document.images) {
+_11_o = newImage("index/banner/11-o.gif");
+_12_o = newImage("index/banner/12-o.gif");
+_13_o = newImage("index/banner/13-o.gif");
+_14_o = newImage("index/banner/14-o.gif");
+_15_o = newImage("index/banner/15-o.gif");
+_16_o = newImage("index/banner/16-o.gif");
+_17_o = newImage("index/banner/17-o.gif");
+_18_o = newImage("index/banner/18-o.gif");
+_19_o = newImage("index/banner/19-o.gif");
+preloadFlag = true;
+}
+}
+
+// -->
+</script>
+<!-- End Preload Script -->
+<!-- ImageReady Slices (Untitled-layers.psd) -->
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="6">
+<img height="27" src="index/banner/01.gif" width="600"/></td>
+<td>
+<a href="index.html" onmouseout="changeImages('_02', 'index/banner/02.gif'); closeIt (); return true;" onmouseover="changeImages('_02', 'index/banner/11-o.gif'); openIt ('Home'); return true;">
+<img border="0" height="27" name="_02" src="index/banner/02.gif" width="100"/></a></td>
+</tr>
+<tr>
+<td>
+<a href="atm/1/index.html" onmouseout="changeImages('_03', 'index/banner/03.gif'); closeIt (); return true;" onmouseover="changeImages('_03', 'index/banner/12-o.gif'); openIt ('Chapter 1: outdoor and indoor air quality issues, climate change and climate variability'); return true;">
+<img border="0" height="120" name="_03" src="index/banner/03.gif" width="100"/></a></td>
+<td>
+<a href="lan/2/index.html" onmouseout="changeImages('_04', 'index/banner/04.gif'); closeIt (); return true;" onmouseover="changeImages('_04', 'index/banner/13-o.gif'); openIt ('Chapter 2: land cover, land use, geology, landform, and soil features'); return true;">
+<img border="0" height="120" name="_04" src="index/banner/04.gif" width="100"/></a></td>
+<td>
+<a href="ilw/3/index.html" onmouseout="changeImages('_05', 'index/banner/05.gif'); closeIt (); return true;" onmouseover="changeImages('_05', 'index/banner/14-o.gif'); openIt ('Chapter 3: water quality and quantity, wetlands, aquatic health, and groundwater'); return true;">
+<img border="0" height="120" name="_05" src="index/banner/05.gif" width="100"/></a></td>
+<td>
+<a href="bio/4/index.html" onmouseout="changeImages('_06', 'index/banner/06.gif'); closeIt (); return true;" onmouseover="changeImages('_06', 'index/banner/15-o.gif'); openIt ('Chapter 4: biodiversity condition, and threatening processes'); return true;">
+<img border="0" height="120" name="_06" src="index/banner/06.gif" width="100"/></a></td>
+<td>
+<a href="set/5/index.html" onmouseout="changeImages('_07', 'index/banner/07.gif'); closeIt (); return true;" onmouseover="changeImages('_07', 'index/banner/16-o.gif'); openIt ('Chapter 5: environmental, social and economic conditions and trends in settlements'); return true;">
+<img border="0" height="120" name="_07" src="index/banner/07.gif" width="100"/></a></td>
+<td>
+<a href="her/6/index.html" onmouseout="changeImages('_08', 'index/banner/08.gif'); closeIt (); return true;" onmouseover="changeImages('_08', 'index/banner/17-o.gif'); openIt ('Chapter 6: cultural landscapes, places and features, objects, and archives'); return true;">
+<img border="0" height="120" name="_08" src="index/banner/08.gif" width="100"/></a></td>
+<td>
+<a href="cem/7/index.html" onmouseout="changeImages('_09', 'index/banner/09.gif'); closeIt (); return true;" onmouseover="changeImages('_09', 'index/banner/18-o.gif'); openIt ('Chapter 7: water quality, ecological condition, wild fisheries, marine farming, and global change'); return true;">
+<img border="0" height="120" name="_09" src="index/banner/09.gif" width="100"/></a></td>
+</tr>
+<tr>
+<td colspan="7">
+<a href="sus/8/index.html" onmouseout="changeImages('_10', 'index/banner/10.gif'); closeIt (); return true;" onmouseover="changeImages('_10', 'index/banner/19-o.gif'); openIt ('Chapter 8: major findings from chapters and pathways to sustainability'); return true;">
+<img border="0" height="45" name="_10" src="index/banner/10.gif" width="700"/></a></td>
+</tr>
+</table>
+<!-- End ImageReady Slices -->
+<div id="desc"><b><font color="#006633" face="Arial,Helvetica" size="-1">Click icons above to find out about each chapter</font></b></div>
+</center><br/><center><table width="700"><tr>
+<td width="25"></td>
+<td bgcolor="#cccccc" valign="top" width="160"><p><span class="stdFont"></span></p><p><span class="stdFont"><b>Getting started</b></span></p><p><span class="stdFont"><a href="copy/10/index.html">Using the report</a></span></p><p><span class="stdFont"><a href="index/chapter.html">Chapter contents</a> (or click on chapter icons above)</span></p><p><span class="stdFont"><b>Recommendations</b></span></p><p><span class="stdFont"><a href="index/recommendation.html">Introduction and links</a></span></p><p><span class="stdFont"><a href="index/recommendation/2003.html">2003 recommendations</a></span></p><p><span class="stdFont"><a href="index/recommendation/1997.html">1997 recommendations</a></span></p><p><span class="stdFont"><b>Indexes</b></span></p><p><span class="stdFont"><a href="index/glossary.html">Glossary</a></span></p><p><span class="stdFont"><a href="index/source.html">Sources</a></span></p><p><span class="stdFont"><a href="index/indicator.html">Indicators</a></span></p><p><span class="stdFont"><a href="index/casestudy.html">Case studies</a></span></p><p><span class="stdFont"><a href="index/image.html">Map index</a></span></p><p><span class="stdFont"><a href="index/legislation.html">Legislation index</a></span></p><p><span class="stdFont"><a href="index/link.html">Index of links</a></span></p><p><span class="stdFont"><a href="copy/111/index.html">1997 SoE Report</a></span></p><p><span class="stdFont"><b>Contacts and acknowledgements</b></span></p><p><span class="stdFont"><a href="copy/39/index.html">Commissioners</a></span></p><p><span class="stdFont"><a href="copy/40/index.html">Contributing organisations</a></span></p><p><span class="stdFont"><a href="copy/32/index.html">Contacts and acknowledgements</a></span></p><p><span class="stdFont"><a href="copy/112/index.html">Recommended Citation</a></span></p><p><span class="stdFont"></span></p><p><span class="stdFont"></span></p></td>
+<td width="35"></td>
+<td valign="top" width="450"><p><span class="stdFont"></span></p><p><span class="stdFont"><font color="#006633" size="4"><b>Welcome to State of the Environment (SoE) Tasmania 2003</b></font></span></p><p><span class="stdFont">The covering <a href="copy/86/index.html">letter</a> from the Executive Commissioner introduces the 2003 State of the Environment (SoE) Report for Tasmania.</span></p><p><span class="stdFont">The SoE Report contains information about issues affecting Tasmania's environment. It is designed for use by the community and policy makers to help inform decision-making across all spheres of government. It is also intended for use by scientists, students and resource managers who require summary information and perspectives from other disciplines. The report can also be used to gain insights into some of the available underlying databases and information sources.</span></p><p><span class="stdFont">The preparation of this SoE Report is one of the features of Tasmania's Resource Management and Planning System. SoE reporting provides a means to assess progress towards the <a href="copy/15/index.html">sustainable development objectives</a> defined under the system. Details of the legislative requirement for SoE reporting under the <a href="http://www.thelaw.tas.gov.au/advSearch/validate.w3p?sc1=phrase&amp;wh1=title&amp;domain=ALL&amp;pointInTime=10%2f3%2f2004&amp;sortBy=title&amp;tx1=State+Policies+and+Projects+Act+1993"><i>State Policies and Projects Act 1993</i></a> (and how this requirement is addressed in this report) are provided on the linked <a href="copy/77/index.html">page</a>. In addition to meeting the principal requirements of the legislation, other <a href="copy/108/index.html">objectives</a> were identified for this report by the Resource Planning and Development Commission.</span></p><p><span class="stdFont">For ease of use it is recommended that you gain an overview of the SoE Report's structure and objectives in 'Setting the Scene'. If you know what you need from the report you can either click on 'Chapters' in the left hand column of this page, or on the relevant icon at the top of the page. They will both take you to the same information. If it is the report's recommendations you are after then use the Quicklinks section and click on 'Recommendations'. A 'printer-friendly' version of the report, which contains the 'at a glance' pages from this website and the recommendations in full, can be downloaded (<a href="file/66/index.html">State of the Environment 2003 Summary and Recommendations</a>).</span></p><p><span class="stdFont"><p class="rightSubTitle"><span class="stdFont">Tasmania's Diversity of Landform, Vegetation and Land Use</span></p><img alt="Tasmania's Diversity of Landform, Vegetation and Land Use" height="450" src="image/294/homepage/m-tas_landsat_home-m.jpg" width="450"><p></p></img></span></p><p><span class="stdFont"></span></p></td>
+<td width="30"></td>
+</tr></table></center>
+<center><p><span class="stdFont"></span></p><p><span class="stdFont"></span></p><p><span class="stdFont"><center>Quick links to: <a href="index.html">Home</a> | <a href="index/contents.html">Contents</a> | <a href="index/chapter.html">Chapters</a> | <a href="index/indicator.html">Indicators</a> | <a href="index/casestudy.html">Case studies</a> | <a href="index/recommendation.html">Recommendations</a> | <a href="index/source.html">Sources</a></center></span></p><p><span class="stdFont"><table border="0" cellpadding="0" cellspacing="0" width="700"> <tr> <td colspan="5" height="2"> <hr size="1" width="700"/> </td> </tr> <tr> <td width="25">   </td> <td align="middle" valign="center" width="160"> <a href="http://www.rpdc.tas.gov.au"><img alt="RPDC logo" border="0" height="90" src="image/9/footer/rpdc_logo.gif" width="114"><p></p></img></a> </td><td width="35">   </td> <td valign="center" width="450"> <span class="stdFont"> Contact the Commission on: </span> <table align="left" border="0" cellpadding="0" cellspacing="0" width="440"> <tr> <td width="80"><span class="stdFont"> email:</span> </td> <td width="360"> <span class="stdFont"> <a href="mailto:soe@rpdc.tas.gov.au">soe@rpdc.tas.gov.au</a> </span> </td> </tr> <tr> <td width="80"> <span class="stdFont"> Phone:</span> </td> <td width="360"> <span class="stdFont"> (03) 6233 2795 (within Australia)</span> </td> </tr> <tr> <td width="80"> <span class="stdFont"> Fax:</span> </td> <td width="360"> <span class="stdFont"> (03) 6233 5400 (within Australia)</span> </td> </tr> <tr> <td width="80"> <span class="stdFont"> Or mail to:</span> </td> <td width="360"> <span class="stdFont"> RPDC, GPO Box 1691, Hobart, TAS, 7001, Australia</span> </td> </tr> </table> </td> <td width="30">   </td> </tr><tr> <td colspan="5" height="2"> <hr noshade="" size="1" width="700"/> </td> </tr></table> <br/> <span class="stdFont">Last Modified: 21 May 2007<br/> URL: http://soer.justice.tas.gov.au/2003/index.php<br/>You are directed to a <a href="http://www.tased.edu.au/webgov/codi.htm">disclaimer and copyright notice</a> governing the information provided.</span></span></p></center></body></html><p><span class="stdFont"></span></p><p><span class="stdFont"></span></p>
+
+
